@@ -3,14 +3,11 @@ import 'package:test/test.dart';
 
 void main() {
   group('A group of tests', () {
-    final awesome = Awesome();
-
-    setUp(() {
-      // Additional setup goes here.
-    });
-
-    test('First Test', () {
-      expect(awesome.isAwesome, isTrue);
+    test('busan address count', () {
+      final busanAddresses = all
+          .where((address) => address.startsWith('부산광역시'))
+          .toList();
+      expect(busanAddresses.length, busan.length);
     });
   });
 }
