@@ -1,5 +1,7 @@
 # korea_administrative_addresses
 
+![Pub Version](https://img.shields.io/pub/v/korea_administrative_addresses)
+
 A lightweight, pure-Dart package containing standardized administrative district names across South Korea.
 This package provides a simple, structured dataset of Korean Eup/Myeon/Dong addresses for client-side validation, matching, and processing use cases.
 
@@ -18,7 +20,7 @@ Add the package to your `pubspec.yaml`:
 
 ```yaml
 dependencies:
-  korean_administrative_districts: ^0.0.1
+  korean_administrative_districts: ^1.0.0
 ```
 
 Then run:
@@ -30,11 +32,11 @@ dart pub get
 ## Usage
 
 ```dart
-import 'package:korean_administrative_districts/hangjungdong.dart';
+import 'package:korea_administrative_addresses/korea_administrative_addresses.dart';
 
 void main() {
-  print(seoul);          // List of Seoul district strings
-  print(allDistricts);   // Full Korea-wide list
+  print(seoul);  // List of Seoul district strings
+  print(all);    // Full Korea-wide list
 }
 ```
 
