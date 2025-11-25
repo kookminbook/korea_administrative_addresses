@@ -1,6 +1,6 @@
 name: korea_administrative_addresses
 description: A lightweight, pure-Dart package containing standardized administrative district names across South Korea.
-version: 1.0.0
+version: 1.1.0
 repository: https://github.com/kookminbook/korea_administrative_addresses
 
 environment:
