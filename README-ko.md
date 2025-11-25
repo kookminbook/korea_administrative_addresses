@@ -37,6 +37,7 @@ import 'package:korea_administrative_addresses/korea_administrative_addresses.da
 void main() {
   print(seoul);  // 서울시 행정동 리스트
   print(all);    // 전국 전체 리스트
+  print('서울 주소 개수: ${getAddressesByAddrLv1("서울특별시").length}');  // 서울특별시 행정동 리스트
 }
 ```
 

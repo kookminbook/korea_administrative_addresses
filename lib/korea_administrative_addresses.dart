@@ -18,3 +18,4 @@ export 'data/jeonnam.dart';
 export 'data/sejong.dart';
 export 'data/seoul.dart';
 export 'data/ulsan.dart';
+export 'src/korea_administrative_addresses_base.dart';
