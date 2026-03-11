@@ -7,6 +7,7 @@ export 'data/chungnam.dart';
 export 'data/daegu.dart';
 export 'data/daejeon.dart';
 export 'data/gangwon.dart';
+export 'data/generations.g.dart';
 export 'data/gwangju.dart';
 export 'data/gyeongbuk.dart';
 export 'data/gyeonggi.dart';

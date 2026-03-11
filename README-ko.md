@@ -29,7 +29,7 @@ dependencies:
 dart pub get
 ```
 
-## 🔧 사용 예시
+## 사용 예시
 
 ```dart
 import 'package:korea_administrative_addresses/korea_administrative_addresses.dart';
@@ -48,3 +48,31 @@ void main() {
 서울특별시 종로구 사직동
 ...
 ```
+
+## 메타데이터 생성
+
+'현재 대수' 메타 데이터 생성과 사용법
+
+사용 예시:
+
+```dart
+import 'package:korea_administrative_addresses/korea_administrative_addresses.dart';
+
+void main() {
+  final head = currentGen['서울특별시']['head'];
+  print('서울특별시 head: $head');
+}
+```
+
+### `currentGen` 재생성
+
+`assets/generations.json` 변경시, 스크립트 실행하여 재생성:
+
+```bash
+# from the project root
+dart run tool/gen_generations.dart
+# or
+dart tool/gen_generations.dart
+```
+
+`lib/data/generations.g.dart` 으로 최신 `currentGen` 업데이트.

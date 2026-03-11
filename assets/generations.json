@@ -1,0 +1,117 @@
+{
+  "서울특별시": {
+    "head": 39,
+    "council": 11,
+    "districts": {
+      "종로구": [36]
+    }
+  },
+  "부산광역시": {
+    "head": 39,
+    "council": 9,
+    "districts": {
+      "중구": [40]
+    }
+  },
+  "대구광역시": {
+    "head": 35,
+    "council": 9,
+    "districts": {
+      "중구": [24]
+    }
+  },
+  "인천광역시": {
+    "head": 16,
+    "council": 9,
+    "districts": {
+      "중구": [30]
+    }
+  },
+  "대전광역시": {
+    "head": 13,
+    "council": 9,
+    "districts": {
+      "서구": [16]
+    }
+  },
+  "광주광역시": {
+    "head": 14,
+    "council": 9,
+    "districts": {
+      "서구": [25]
+    }
+  },
+  "울산광역시": {
+    "head": 8,
+    "council": 8,
+    "districts": {
+      "남구": [14, 8]
+    }
+  },
+  "세종특별자치시": {
+    "head": 4,
+    "council": 4,
+    "districts": {}
+  },
+  "강원특별자치도": {
+    "head": 39,
+    "council": 11,
+    "districts": {
+      "춘천시": [37, 11]
+    }
+  },
+  "경기도": {
+    "head": 36,
+    "council": 11,
+    "districts": {
+      "수원시": [29, 12]
+    }
+  },
+  "충청북도": {
+    "head": 36,
+    "council": 12,
+    "districts": {
+      "청주시": [35, 12]
+    }
+  },
+  "충청남도": {
+    "head": 39,
+    "council": 12,
+    "districts": {
+      "천안시": [26]
+    }
+  },
+  "전북특별자치도": {
+    "head": 36,
+    "council": 12,
+    "districts": {
+      "전주시": [40, 12]
+    }
+  },
+  "전라남도": {
+    "head": 39,
+    "council": 12,
+    "districts": {
+      "목포시": [41, 12]
+    }
+  },
+  "경상북도": {
+    "head": 33,
+    "council": 12,
+    "districts": {
+      "포항시": [40]
+    }
+  },
+  "경상남도": {
+    "head": 38,
+    "council": 12,
+    "districts": {
+      "창원시": [4, 4]
+    }
+  },
+  "제주특별자치도": {
+    "head": 39,
+    "council": 12,
+    "districts": {}
+  }
+}

@@ -48,3 +48,31 @@ Example output:
 서울특별시 종로구 사직동
 ...
 ```
+
+## Generation metadata
+
+This package exposes generation metadata compiled from `assets/generations.json` as a `const` map named `currentGen`.
+
+Example:
+
+```dart
+import 'package:korea_administrative_addresses/korea_administrative_addresses.dart';
+
+void main() {
+  final head = currentGen['서울특별시']['head'];
+  print('서울특별시 head: $head');
+}
+```
+
+### Regenerating `currentGen`
+
+If you update `assets/generations.json`, regenerate the embedded Dart file with the included script:
+
+```bash
+# from the project root
+dart run tool/gen_generations.dart
+# or
+dart tool/gen_generations.dart
+```
+
+This will overwrite `lib/data/generations.g.dart` with the up-to-date `currentGen` map.
