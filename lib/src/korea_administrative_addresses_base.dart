@@ -4,6 +4,7 @@ import 'package:korea_administrative_addresses/data/chungnam.dart';
 import 'package:korea_administrative_addresses/data/daegu.dart';
 import 'package:korea_administrative_addresses/data/daejeon.dart';
 import 'package:korea_administrative_addresses/data/gangwon.dart';
+import 'package:korea_administrative_addresses/data/generations.g.dart';
 import 'package:korea_administrative_addresses/data/gwangju.dart';
 import 'package:korea_administrative_addresses/data/gyeongbuk.dart';
 import 'package:korea_administrative_addresses/data/gyeonggi.dart';
@@ -15,6 +16,17 @@ import 'package:korea_administrative_addresses/data/jeonnam.dart';
 import 'package:korea_administrative_addresses/data/sejong.dart';
 import 'package:korea_administrative_addresses/data/seoul.dart';
 import 'package:korea_administrative_addresses/data/ulsan.dart';
+
+int getDistrictCouncilGenerationOrDefault(
+  String lv1,
+  String district, {
+  int defaultValue = 9,
+}) {
+  final list = (currentGen[lv1]?['districts'] as Map?)?[district] as List?;
+  return (list != null && list.length == 2 && list[1] is int)
+      ? list[1] as int
+      : defaultValue;
+}
 
 List<String> getAddressesByAddrLv1(String addrLv1) {
   List<String> addresses = [];

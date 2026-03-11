@@ -14,4 +14,8 @@ void main() {
     final namgu = districts['남구'] as List<dynamic>;
     expect(namgu.first, equals(14));
   });
+
+  test('currentGen nested districts council values are accessible', () {
+    expect(getDistrictCouncilGenerationOrDefault('서울특별시', '종로구'), equals(9));
+  });
 }
