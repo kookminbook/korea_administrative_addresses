@@ -20,7 +20,7 @@ Add the package to your `pubspec.yaml`:
 
 ```yaml
 dependencies:
-  korean_administrative_districts: ^1.1.1
+  korean_administrative_districts: ^1.2.0
 ```
 
 Then run:

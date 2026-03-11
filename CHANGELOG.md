@@ -1,3 +1,7 @@
+## 1.2.0
+
+- Add currentGeneration function
+
 ## 1.1.1
 
 - Update seoul 개포3동
